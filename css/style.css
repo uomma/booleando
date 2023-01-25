@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: orangered;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.logo {
+    background-image: url(../img/boolean-logo.png);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+
+}
