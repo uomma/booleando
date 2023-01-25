@@ -8,6 +8,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+.caselle{
+    background-color: black;
+
+    width: 100%; height: auto;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -21,8 +28,9 @@ a {
     justify-content: space-between;
     padding: 0px 250px;
     align-items: center;
+    overflow: hidden;
+    position: fixed;
 }
-
 
 ul {
     list-style: none;
@@ -35,10 +43,68 @@ li {
 
 .logo {
     background-image: url(../img/boolean-logo.png);
-
     background-repeat: no-repeat;
     background-size: contain;
     width: 200px;
     height: 50px;
 
 }
+
+
+.item {
+  
+    width: 350px;
+    height: 620px;
+    margin: 60px;
+    float: left;   
+   
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 550px;   
+}
+
+.brand{
+    font-weight: 200;
+    font-size: small;
+    color: lightgray;
+}
+
+.description{
+font-weight: 700;
+}
+
+.price{
+    display: inline-flex;
+    gap: 5px;
+}
+
+.sale{
+    color: red;
+}
+
+.full{
+    color: lightgray;
+    text-decoration:line-through ;
+}
+
+footer {
+    background-color:  rgba(50, 48, 48, 0.951);
+}
+
+.infondo{
+    width: 100%;
+    height: 40px;
+}
+
+h4{
+    text-align:left;
+}
+
+.info{
+    display: flex;
+}
+
