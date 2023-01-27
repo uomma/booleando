@@ -7,24 +7,103 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/* common */
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+
+}
 
 
-.caselle{
+
+
+
+
+
+/* header */
+
+header .row{
+    justify-content: space-between;
+    height: 70px;
+}
+
+
+nav > .menu,
+nav > .icons{
+    width: 20%;
+}
+
+header{
+    background-color: orangered;
+}
+
+/* header */
+
+
+/* main */
+
+/* main */
+
+
+/* footer */
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.caselle {
     background-color: black;
-
-    width: 100%; height: auto;
+    width: 100%;
+    height: auto;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navbar {
-    background-color: orangered;
-    width: 100%;
+   
+    max-width: 1200px;
     height: auto;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     padding: 0px 250px;
     align-items: center;
@@ -52,59 +131,65 @@ li {
 
 
 .item {
-  
+
     width: 350px;
     height: 620px;
     margin: 60px;
-    float: left;   
-   
+    float: left;
+
 }
 
-.img1, .img2, .img3, .img4, .img5, .img6{
+.img1, .img2, .img3, .img4, .img5, .img6 {
     background-repeat: no-repeat;
     background-size: contain;
     width: 350px;
-    height: 550px;   
+    height: 550px;
 }
 
-.brand{
+.brand {
     font-weight: 200;
     font-size: small;
     color: lightgray;
 }
 
-.description{
-font-weight: 700;
+.description {
+    font-weight: 700;
 }
 
-.price{
+.price {
     display: inline-flex;
     gap: 5px;
 }
 
-.sale{
+.sale {
     color: red;
 }
 
-.full{
+.full {
     color: lightgray;
-    text-decoration:line-through ;
+    text-decoration: line-through;
 }
 
 footer {
-    background-color:  rgba(50, 48, 48, 0.951);
+    background-color: rgba(50, 48, 48, 0.951);
+   
 }
 
-.infondo{
+.infondo {
     width: 100%;
     height: 40px;
+    text-align: start;
 }
 
-h4{
-    text-align:left;
+h4 {
+    text-align: left;
 }
 
-.info{
+.info {
     display: flex;
 }
 
+.social .list{
+    height: 20px;
+    align-items: center;
+} */
